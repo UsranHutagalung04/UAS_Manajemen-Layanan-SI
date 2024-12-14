@@ -7,7 +7,7 @@
     require_once("database.php");
 ?>
 <?php
-// fungsi untuk merandom avatar profil
+// fungsi untuk merandom avatar profil 
 function RandomAvatar(){
     $photoAreas = array("avatar1.png", "avatar2.png", "avatar3.png", "avatar4.png", "avatar5.png", "avatar6.png", "avatar7.png", "avatar8.png", "avatar9.png", "avatar10.png", "avatar11.png");
     $randomNumber = array_rand($photoAreas);
@@ -22,29 +22,28 @@ function RandomAvatar(){
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Layanan Kampus UIN Imam Bonjol Padang</title>
+    <title> Dashboard | SI LAKAM UIN IB</title>
     <link rel="shortcut icon" href="images/fuin.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- font Awesome CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Main Styles CSS -->
     <link href="css/style.css" rel="stylesheet">
-    <!-- jQuery -->
+    <!-- jQuery y-->
     <script src="js/jquery.min.js"></script>
     <!-- Bootstrap JavaScript -->
     <script src="js/bootstrap.js"></script>
     <!-- Animate CSS -->
     <link rel="stylesheet" href="css/animate.min.css">
 </head>
-
 <body>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.11';
+        js.src = 'https://connect.=1&version=v2.11';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
 
@@ -102,9 +101,9 @@ function RandomAvatar(){
                         <li><a href="lihat">LIHAT PENGADUAN</a></li>
                         <li><a href="cara">CARA</a></li>
                         <li class="dropdown">
-                            <a href="profildinas" class="dropdown-toggle" data-toggle="dropdown">PROFIL <span class="caret"></span></a>
+                            <a href="profildinas" class="dropdown-toggle" data-toggle="dropdown">PROFIL UIN IB<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="profildinas">Profil UIN IMAM BONJOL PADANG</a></li>
+                                <li><a href="profildinas">Profil UIN IB Padang</a></li>
                                 <li class="divider"></li>
                                 <li><a href="profildinas">Visi dan Misi</a></li>
                                 <li class="divider"></li>
@@ -142,7 +141,8 @@ function RandomAvatar(){
                 <img src="images/h2.png" alt="...">
                 <div class="carousel-caption welcome">
                     <h2 class="animated bounceInRight">Selamat Datang</h2>
-                    <h3 class="animated bounceInLeft">Sistem Pengaduan Layanan Fasilitas UIN IB Padang</h3>
+                    <h1 class="animated bounceInRight">SILAKAM UIN IB Padang</h1>
+                    <h3 class="animated bounceInLeft">Sistem Pengaduan Layanan Kampus UIN IB Padang</h3>
                 </div>
             </div>
             <div class="item">
@@ -231,7 +231,7 @@ function RandomAvatar(){
                         </div>
                         <div class="info">
                             <h3 class="text-center">twitter</h3>
-                            <a class="twitter-timeline" href="https://twitter.com/disdukcapilbkl?ref_src=twsrc%5Etfw" data-width="500" data-height="300">Tweets by disdukcapilbkl</a>
+                            <a class="twitter-timeline" href="httprc%5Etfw" data-width="500" data-height="300">Tweets by UIN Imam Bonjol Padang</a>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>
@@ -262,9 +262,9 @@ function RandomAvatar(){
                             <h3 class="text-center">link</h3>
                             <ul class="list-group">
                                 <li class="list-group-item list-group-item-success"><a href="http://www.bangkalankab.go.id/v4/">Fakultas Sains dan Teknologi</a></li>
-                                <li class="list-group-item list-group-item-info"><a href="http://kominfo.bangkalankab.go.id/">Website Diskominfo Bangkalan</a></li>
-                                <li class="list-group-item list-group-item-warning"><a href="http://dispendukcapilbkl.com/">Website Dispendukcapil Bangkalan</a></li>
-                                <li class="list-group-item list-group-item-danger"><a href="http://bappeda.bangkalankab.go.id/">Website Bappeda Bangkalan</a></li>
+                                <li class="list-group-item list-group-item-info"><a href="http://kominfo.bangkalankab.go.id/">Fakultas Ekonomi dan Bisnis Islam</a></li>
+                                <li class="list-group-item list-group-item-warning"><a href="http://dispendukcapilbkl.com/">Fakultas Dakwah dan Ilmu Konumasi</a></li>
+                                <li class="list-group-item list-group-item-danger"><a href="http://bappeda.bangkalankab.go.id/"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -329,12 +329,12 @@ function RandomAvatar(){
                 </ul>
                 <ul class="list-inline mb-0">
                     <li class="list-inline-item">
-                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/dispendukcapilbkl/">
+                    <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/dispendukcapilbkl/">
                             <i class="fa fa-fw fa-facebook"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/disdukcapilbkl">
+                        <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/">
                             <i class="fa fa-fw fa-twitter"></i>
                         </a>
                     </li>

@@ -4630,7 +4630,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-    border-color: #101010;
+    border-color: #800000;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
@@ -6146,7 +6146,7 @@ button.close {
     padding: 8px 14px;
     margin: 0;
     font-size: 14px;
-    background-color: #f7f7f7;
+    background-color: #800000;
     border-bottom: 1px solid #ebebeb;
     border-radius: 5px 5px 0 0;
 }

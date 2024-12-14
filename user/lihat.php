@@ -1,7 +1,7 @@
 <?php
-# @Author: Wahid Ari <wahidari>
+# @Author: Usran Bangun Fajar Hutagalung
 # @Date:   8 January, 5:05
-# @Copyright: (c) wahidari 2017
+# @Copyright: (c)Usran Developer-->
 ?>
 <?php
 require_once("database.php");
@@ -44,12 +44,12 @@ if(isset($_POST['submit'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Lihat Pengaduan | Dispendukcapil Bangkalan</title>
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Lihat Pengaduan | SI LAKAM UIN IB</title>
+    <link rel="shortcut icon" href="images/fuin.ico">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <!-- font Awesome CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Main Styles CSS -->
     <link href="css/style.css" rel="stylesheet">
     <!-- jQuery -->
@@ -110,9 +110,9 @@ if(isset($_POST['submit'])) {
                         <li class="active"><a href="lihat">LIHAT PENGADUAN</a></li>
                         <li><a href="cara">CARA</a></li>
                         <li class="dropdown">
-                            <a href="profildinas" class="dropdown-toggle" data-toggle="dropdown">PROFIL DINAS <span class="caret"></span></a>
+                            <a href="profildinas" class="dropdown-toggle" data-toggle="dropdown">PROFIL UIN IB<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="profildinas">Profil Dinas</a></li>
+                                <li><a href="profildinas">Profil UIN IB Padang</a></li>
                                 <li class="divider"></li>
                                 <li><a href="profildinas">Visi dan Misi</a></li>
                                 <li class="divider"></li>

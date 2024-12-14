@@ -1,7 +1,7 @@
 <?php
-# @Author: Wahid Ari <wahidari>
-# @Date:   8 January, 5:05
-# @Copyright: (c) wahidari 2017
+# @Author: Usran Bangun Fajar Hutagalung
+# @Date:   10 November, 5:05
+# @Copyright: (c) Usran Developer
 ?>
 <?php
 
